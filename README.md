@@ -1,5 +1,5 @@
 # Quantum-Secure Cyber Security Dashboard
-https://drive.google.com/file/d/18KwWDVywXFVxniDjzk1C59CdNzibMqaM/view?usp=drive_link
+<img width="1672" height="941" alt="quantum-picture" src="https://github.com/user-attachments/assets/f941097d-8837-4e6c-af12-6624bc7d0bcb" />
 ## Overview
 A portfolio-oriented SOC dashboard that demonstrates:
 - ML-based network threat classification
