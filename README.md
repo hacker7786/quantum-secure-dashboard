@@ -53,9 +53,9 @@ curl -X POST http://127.0.0.1:5000/api/analyze \
 Do not run a standalone `hyperledger/fabric-peer` container and call it a blockchain API.
 Use the official Fabric samples test network:
 ```bash
-git clone https://github.com/hyperledger/fabric-samples.git
-cd fabric-samples/test-network
-./network.sh up createChannel
+git clone https://github.com/hacker7786/quantum-secure-dashboard.git
+cd quantum-secure-dashboard/backend/
+python3 app.py up createChannel
 ```
 Then deploy a security-audit chaincode/smart contract that exposes a transaction such as:
 ```text
