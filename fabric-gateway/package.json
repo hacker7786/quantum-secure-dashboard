@@ -1,0 +1,13 @@
+{
+"name": "fabric-gateway-adapter",
+"private": true,
+
+"type": "commonjs",
+"dependencies": {
+"express": "^5.1.0",
+"@hyperledger/fabric-gateway": "^1.8.0"
+},
+"scripts": {
+"start": "node server.js"
+}
+}
