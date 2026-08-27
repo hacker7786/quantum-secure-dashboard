@@ -1,0 +1,67 @@
+:root {
+color-scheme: dark;
+font-family: Inter, system-ui, sans-serif;
+}
+body {
+margin: 0;
+background: #070b14;
+color: #e8edf7;
+}
+.container {
+max-width: 1100px;
+margin: 0 auto;
+padding: 48px 24px;
+}
+.eyebrow {
+letter-spacing: .18em;
+font-size: 12px;
+opacity: .65;
+}
+h1 {
+font-size: clamp(32px, 5vw, 58px);
+margin: 8px 0;
+}
+.subtitle {
+opacity: .7;
+}
+.grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 16px;
+margin: 32px 0;
+}
+.card, .panel {
+background: #0e1524;
+border: 1px solid #26344d;
+border-radius: 18px;
+padding: 22px;
+box-shadow: 0 12px 40px rgba(0,0,0,.22);
+}
+.card span {
+display: block;
+opacity: .6;
+font-size: 13px;
+}
+.card strong {
+display: block;
+margin-top: 10px;
+font-size: 25px;
+}
+button {
+border: 0;
+border-radius: 10px;
+padding: 12px 18px;
+font-weight: 700;
+cursor: pointer;
+}
+pre {
+white-space: pre-wrap;
+overflow: auto;
+margin-top: 20px;
+padding: 16px;
+border-radius: 12px;
+background: #050811;
+}
+@media (max-width: 800px) {
+.grid { grid-template-columns: repeat(2, 1fr); }
+}
